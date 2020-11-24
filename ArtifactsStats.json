@@ -1,0 +1,8 @@
+items.find(
+  {
+       "repo": "docker-local",
+       "stat.downloads":{"$gt":"1"},
+       "created": { "$last": "12mo"}
+  }
+).
+include("name","stat.downloads","modified")
