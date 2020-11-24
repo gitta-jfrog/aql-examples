@@ -1,0 +1,6 @@
+items.find(
+  {
+       "release_artifact.release.name": "my-bundle",
+       "release_artifact.release.version": "1.0"
+  }
+)
